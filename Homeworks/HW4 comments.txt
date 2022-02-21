@@ -1,0 +1,93 @@
+Note: 
+- Potential Plagiarism: Shandin and Ryleigh (both in the same lab team)
+- Late Submission (50% credit): Austin
+- Program not included in main(): Wanda 
+>>> No point taken off yet since not mentioned in rubric
+>>> Comment: Your program should all be included in your def main() (by indentation) instead of just the first line (total = 0), then call main() (aligned with def main())
+
+Ryleigh, Shandin:
+-4 No nested if was used. The prompt for a cheeseburger should only be prompted when the user said 'y' for a hamburger.
+1.    # ask fourth choice (hamburger)
+2.    hamburger = input("Would you like a Hamburger? ")
+3.    # if the user desired the item,
+4.    if hamburger == 'y': 
+5.        # ask additional choice (cheeseburger)
+6.        cheeseburger = input("Would you like cheese on that? ")
+7.        # if the user desired the additional item,
+8.        if cheeseburger == 'y':
+(and so on)
+
+Ryleigh, Jiaming, Aiden, Olivia:
+-10 Design was included but not completed. There should be design comments for all the other prompts, the bill calculations, output of bill with tip, and closing ment
+
+Alex:
+-4 unnecessary else statements. Your code should work exactly the same without your current else statements, so you don't need to include them for better efficiency
+
+Alex:
+-5 incomplete design comments for the rest of the user prompts
+
+Aiden, Olivia, Shandin:
+for part D, remember to also format it as 2 decimals (0.00)
+
+Jiaming, Jackson, Harrison:
+a few spelling errors in the prompts
+
+Jackson, Shandin, Wanda:
+-5 incomplete design. There should be design comments for each of the prompts
+
+Harrison:
+-1 use .format() instead of round() as round() will not show 2 decimals in cases where the 2nd decimal is 0. Here is a way to display correctly:
+# output total bill before tip
+print("The total for your food is ${:.2f}".format(total_bill))
+
+Harrison, Austin:
+-10 no design was included nor completed
+
+Jackson, Gabe:
+-1 change restaurant's name
+
+Gabe:
+-1 instead of printing the prompt then calling input() separately, combine them like this:
+cheese_sandwich = input("Would you like a grilled cheese sandwich? ")
+
+Ryleigh, Alex, Aiden, Jackson, Harrison, Gabe:
+use += for the accumulator next time. So,
+instead of: bill = bill + 5.99
+do: bill += 5.99
+
+Elliot, Austin:
+-2 redundant str(input()). input() already gets inputs as strings, so you don't need to typecast them. This should be efficient:
+grilled_cheese = input("Would you like a grilled cheese sandwich? ")
+
+Austin:
+-2 missing test cases B and E in the comments at the bottom
+
+Natalia:
+-4 incomplete design for the rest of the prompt. You should be more specific in your design comment
+-5 incomplete design for the second part:
+# calculate amount of tip and add to total
+# output total with tip, with 2 decimal places 
+
+Cristian:
+-1 you don't need the else statement for your last if. When there is nothing change in the else case, then the else statement is redundant.
+
+Cristian, Jackson:
+-2 incomplete design. Missing comment for:
+# output total with tip, with 2 decimal places 
+
+Shandin:
+-2 incomplete design. Missing comment for:
+# calculate amount of tip and add to total
+
+Wanda:
+-4 unnecessary elif statements:
+- You should use else instead of elif for the nested if statement since there are only 2 cases: input == 'y' and input != 'y'. You would use elif statements when there are more than 2 cases.
+- This assignment is designed in a way where you don't need else (nor elif) statements for the independent if statements if you use the accumulator to keep track of the bill. For example:
+1. # ask first choice (grilled cheese sandwich)
+2.    cheese_sandwich = input("Would you like a grilled cheese sandwich? ")
+3.    # if the user desired the item,
+4.    if cheese_sandwich == 'y': 
+5.        # add price to total bill
+6.         total_bill += 4.49
+(and so on)
+

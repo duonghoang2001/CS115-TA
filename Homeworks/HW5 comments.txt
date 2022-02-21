@@ -1,0 +1,50 @@
+Ryleigh, Olivia:
+-1 incorrect for loop range, should be range(start, end +1) so that it includes the endpoint.
+(also, you do not need to initialize year = 0 to use the for loop)
+
+Ryleigh, Jiaming:
+-4 the 2 logics should be divisible by 4 but not by 100, and divisible by 400. Your if statement is missing checking if year is not divisible by 100, the elif statement is checking divible by 100 redundantly since every number that is divisible by 400 is also divisible by 4 and 100
+
+Ryleigh:
+-4 missing test cases of which range contain:
++ one that is divisible by 4 and 100 but not 400 (ex. 2100) not leap
++ one that is divisible by 4 and 100 and 400 (ex. 2400) leap
+
+Ryleigh:
+-1 for your test case D, 1900 should not be printed
+
+Ryleigh:
+-1 in the prolog, year should be int type
+
+Alex, Aidan:
+-1 variable should be named year
+
+Alex:
+-1 you don't need the else statement if it doesn't make any changes
+
+Alex:
+-2 missing test case of which range contains one that is divisible by 4 and 100 and 400 (ex. 2400) leap
+
+Jiaming:
+-1 you don't need to increment year for this for loop to work. year is increased by the for loop every iteration already
+
+Jiaming:
+-2 missing test case of which range contains one that is divisible by 4 and 100 but not 400 (ex. 2100) not leap
+
+Aidan, Jackson:
+-2 you should elaborate on what the if statement checks for
+
+Jackson, Olivia:
+-5 you need to swap the start and end if the inputs are reversed right after the input statements:
+1. # if inputs are given in reverse order,
+2. if start > end:
+3. # reverse them
+4, start, end = end, start
+then, you only need to call the for loop once in the normal order.
+
+Harrison:
+-12 no test cases were included
+
+Harrison:
+-2 you should check and swap the reversed inputs before printing f"Leap Years in range {start} to {end}"
+also, you need to include the start and end year in the correct order in your output instead of just saying "in range: "
