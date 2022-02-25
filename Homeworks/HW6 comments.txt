@@ -1,0 +1,53 @@
+Ryleigh, Jiaming, Aidan, Olivia, Austin, Natalia, Cristian, Shandin, Wanda, Alexander:
+-3 you should declare a variable and assign it to 100, then use it throughout your code instead of 100. This way, when you need to change the limit, you only need to update it in one place
+
+Ryleigh:
+-9 no design comments were included
+
+Ryleigh:
+-2 incorrect test case answer for case 3: 115, $157.50, $857.50
+
+Jiaming, Harrison:
+-8 incorrect expected output for all the test case
+1. 20, $0, $230.00
+2. 118, $310.50, $1460.50
+3. 115, $157.50, $857.50
+4. 15, $0, $221.25
+
+Jiaming, Harrison:
+a better readability is: total_products += products
+Aidan:
+-1 incorrect the calculation for the total payment when there is extra payment. Your work can be corrected by placing the parenthesis correctly:
+big_pay = ot_pay + (rate * (amount_sum - (amount_sum - 100)))
+or in a simpler way:
+big_pay = ot_pay + rate * threshold (with threshold being 100)
+
+Jackson:
+-4 incorrect expected outputs and program outputs for test cases 2 and 3
+2. 118, $310.50, $1460.50
+3. 115, $157.50, $857.50
+
+Harrison, Cristian:
+-1 redundance typecast for name input. Input is by default a string, so you don't need to typecast str() to the string
+
+Jackson:
+-1 wrong extra pay calculation. You can calculate the extra pay by:
+extra_pay = (sum - limit) * 1.5 * rate (with the limit being 100)
+
+Jackson, Natalia, Jake:
+-0.5 missing from post-cond: extra pay for more than 100 thingamabobs (float)
+
+Harrison, Austin:
+-1 you should provide more detailed comments about the title, the prompts, the output
+
+Natalia:
+-1 for loop works better in this case cause you have a fixed number of iterations to go through
+
+Jake:
+-2 missing outputting extra pay when total thingamabobs greater than the threshold
+
+Cristian:
+-0.5  you calculate rate_thinga inside the for loop, so in the case that days = 0, your print statement fails to reference rate_thinga
+
+Shandin:
+-3 missing the calculation of total pay when there is no extra pay

@@ -29,7 +29,7 @@ def main():
         letter_grade = input('Letter grade? ')
         credit_hours = float(input('Credit hours? '))
 
-        # convert letter grade to quality points using if/elifs (control structure)
+        # convert letter grade to quality points using if/elif/else (control structure)
         if letter_grade == 'A' or letter_grade == 'a': quality_point = 4
         elif letter_grade == 'B' or letter_grade == 'b': quality_point = 3
         elif letter_grade == 'C' or letter_grade == 'c': quality_point = 2
