@@ -1,0 +1,4 @@
+-2 due to the operators' precedence, you don't need all those parentheses. here is what you should do:
+
+-5 you always round down the number of dies to the nearest int, either use int() or math.floor()
+also, you can use math.sqrt() in your calculation instead
