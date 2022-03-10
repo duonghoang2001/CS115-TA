@@ -1,0 +1,24 @@
+-2 missing library documentations for math and time library
+
+-1 missing 'seed' in the comment. Here is an example of the answer:
+no, do not get the same answer because random numbers are different each run because they are using a different seed every time
+
+-2 missing justification about the time used and accuracy of the 2 methods
+
+-5 fail to protect from division by zero when calculating the pi approximation
+
+-2 missing import math for pi, you should not declare a variable pi in your program
+
+-1 missing calling process_time() before the for loop. Here is what you should have done:
+start = process_time()
+<for loop>
+end = process_time()
+time_taken = end - start
+
+-1 no need to typecast str() in your input
+
+-1 missing documentation for variables x and y
+
+-1 incorrect output for the time taken greater than 1 min. I suggest doing the calculation separately before the print function
+
+-1 missing information about which CPU, CPU clock speed
