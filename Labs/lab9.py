@@ -10,7 +10,9 @@ def time_compare(h1, m1, s1, h2, m2, s2):
         Precond 3 ints for time1 (hours, mins, secs), 3 ints for time2 (hours, mins, secs)
         Postcond: one integer, 0 if times are the same, 1 if time1 comes before time2, 2 if time1 comes after time2
     '''
+    # initialize compare to 0, which means times are equal
     compare = 0
+    # compare
     if h1 > h2: compare= 2
     elif h1 < h2: compare = 1
     else:
