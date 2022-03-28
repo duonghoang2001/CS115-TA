@@ -1,0 +1,23 @@
+Ryleigh, Elliot:
+-2 you should getMouse() then getText() so that it leaves the user time to type then save the entry properly. Check out Lecture 13 slide page 8 for example.
+
+Ryleigh:
+-2 name was not displayed even though you have that line of code, the reason is that you getText() before getMouse(), which at that time, your entry is set as "" (an empty string)
+
+Alexander, Aidan, Cristian:
+-6 you should use Entry to get input, not input(). Check out Lecture 13 slide page 8 for example.
+
+Alexander:
+-1 missing another color beside black and white
+
+Jiaming, Aidan, Jackson, Gabe, Natalia:
+-3 missing prompt (a Text object) to close window "click to close window"
+
+Olivia:
+-3 to get input/entry from the Entry box, you need to call name = name_entry.getText(). Check out Lecture 13 slide page 8 for example.
+
+Olivia:
+-6 to draw this, you need to create a new Text object that would display the string name that you got from the entry
+
+Elliott:
+-4 you suppose to display the input/entry from the user, not the preset string
