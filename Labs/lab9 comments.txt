@@ -1,0 +1,14 @@
+-5 failed to implement pure sentinel logic. To do so, you should get h1 input before the while loop, use that value as the loop control logic, then get the rest of the inputs (m1 - s2) inside the loop, call functions and print reports, then at the end of the loop, take another input for h1:
+h1 = int(input("..."))
+while h1 != -1:
+       m1 = int(input("..."))
+       ...
+       s2 = int(input("..."))
+       compare = time_compare(...)
+       print reports
+       # get the input for next set
+       h1 = in(input("..."))
+
+-1 program outputs incorrectly for test case 3, should be Time 1 before instead of after Time 2. The reason for this error is because you are passing str() instead of int(), which in this case '7' > '15' as it compares each character from left to right: '7' > '1' so '7' > '15'
+
+-1.5 all inputs should be typecast as int()
