@@ -1,0 +1,13 @@
+# CS 115 Spring 2022 - Homework 2 Key
+# Author: Duong Hoang
+# Section: 003
+# Email: duong.hoang@uky.edu
+
+1. references to the other person: name, section, email (if they say partner or helper... ok)
+   it's ok if they ALSO mention Net sites or TAs, too, but MUST have reference to person
+2. penalty half possible score, up until 9 am the next day (take off 2 pts if penalty not complete)
+3. 10 percent (if they say 20%, take off 3 points because they didn't read the question!)
+4. March 3, at 11am (-2 if not complete date and time)
+     should be at 6 pm only for 401 students
+
+5. status with Python 3 any answer is ok- email anyone who says they're stuck

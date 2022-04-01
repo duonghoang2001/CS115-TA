@@ -1,0 +1,20 @@
+Ryleigh:
+-1 for the preconditions of the function that's not main(), you only need to list out the parameters and their meanings, types, etc. For example, the precondition of the factor function would be one integer greater than 0
+
+Alexander:
+-3 missing 3 P's for factor function
+
+Alexander:
+-3 missing 3 P's for friendly function
+
+Alexander, Jiaming:
+-1 missing description of friendly
+
+Alexander:
+(no credit) function was not declared
+(no credit) function was not declared, thus, was not called
+Jiaming:
+-2 program outputs incorrectly for part D and F
+
+Jiaming:
+-3 you would want to calculate the ratio by the result from the factor function call with the number. For example: ratio1 = factor(num1)/num1
