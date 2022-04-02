@@ -1,20 +1,55 @@
-Ryleigh:
+Ryleigh, Natalia:
 -1 for the preconditions of the function that's not main(), you only need to list out the parameters and their meanings, types, etc. For example, the precondition of the factor function would be one integer greater than 0
 
-Alexander:
+Alexander, Aidan, Harrison:
 -3 missing 3 P's for factor function
 
-Alexander:
+Alexander, Aidan, Harrison, Gabe:
 -3 missing 3 P's for friendly function
 
-Alexander, Jiaming:
+Alexander, Jiaming, Aidan, Harrison, Gabe, Natalia:
 -1 missing description of friendly
 
 Alexander:
-(no credit) function was not declared
-(no credit) function was not declared, thus, was not called
+(no credit) function was not defined
+(no credit) function was not defined, thus, was not called
 Jiaming:
--2 program outputs incorrectly for part D and F
+-2 program outputs incorrectly for parts D and F
 
 Jiaming:
 -3 you would want to calculate the ratio by the result from the factor function call with the number. For example: ratio1 = factor(num1)/num1
+
+Aidan, Jackson, Harrison:
+-1 the expected output for friendly function should be True/False type (parts C, D)
+
+Aidan, Jackson, Natalia, Cristian:
+-10 you should not define a function inside another function
+
+Aidan, Harrison, Natalia, Cristian, Wanda:
+you can use sentinel logic for validation. For example:
+.num1 = int(input("..."))
+.while num1 <= 0:
+.       print(message)
+.       num1 = int(input("..."))
+
+Jackson:
+-4 missing parameter, for example: def factors(num) with num is one integer greater than 0
+
+Jackson:
+- 1 validations should be inside main function, not factors function
+
+Olivia:
+-2 incorrect range, the number should be from 1 until the number value (inclusive), so the range for the for loop should be range(1, num+1)
+
+Olivia:
+-2 your if statement logic is incorrect. There is a difference between a%b and b%a. In this case, you want to find the factor i of number num, it would be num % i == 0 
+
+Gabe, Natalia:
+-1 should be if and else statements instead of 2 if statements because they cannot happen simultaneously and there are only 2 possibilities in total
+
+Gabe:
+-4 missing test case answers for parts A, B, C, D
+
+Natalia:
+-1 instead of initializing i, you only need to do: for i in range(1, number+1) and do not need to increase i since it will not affect the i value got passed into the loop
+
