@@ -1,0 +1,10 @@
+Ryleigh:
+-5 This design does not use the intended functions (play_turn, pass_or_roll) in the design. These functions will have their own 3 P's and simplify the behavior of main. Each is described in the assignment instructions.
+
+Ryleigh:
+-2 Missing 3 P's for the two functions play_turn and pass_or_roll
+
+Ryleigh:
+-1 Missing initialization of round counter and its increment
+
+
