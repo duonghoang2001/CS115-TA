@@ -1,10 +1,32 @@
-Ryleigh:
+Ryleigh, Alexander:
 -5 This design does not use the intended functions (play_turn, pass_or_roll) in the design. These functions will have their own 3 P's and simplify the behavior of main. Each is described in the assignment instructions.
 
-Ryleigh:
+Ryleigh, Alexander:
 -2 Missing 3 P's for the two functions play_turn and pass_or_roll
 
 Ryleigh:
 -1 Missing initialization of round counter and its increment
 
+Alexander:
+-2 Your design should be inside a function  (so when you write your codes, they are also included inside that function)
 
+Alexander:
+-5 Incomplete design. You should provide more details ( description, totals, counts, turns, display )
+
+Jiaming:
+-1 Missing purpose of functions play_turn and pass_or_roll
+
+Jiaming:
+-1 Missing add roll to total and display roll to the player in the play_turn function whenever they roll the dice
+
+Jiaming:
+Also, the sum+=0 is redundant.
+
+Jiaming:
+-0.5 set round counter to 1, not 0
+
+Jiaming:
+-1 Missing initialization of roll totals and pass counts for each player
+
+Jiaming:
+-2 Missing while loop
