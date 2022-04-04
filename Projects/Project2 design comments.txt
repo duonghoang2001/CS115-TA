@@ -1,7 +1,7 @@
 Ryleigh, Alexander:
 -5 This design does not use the intended functions (play_turn, pass_or_roll) in the design. These functions will have their own 3 P's and simplify the behavior of main. Each is described in the assignment instructions.
 
-Ryleigh, Alexander:
+Ryleigh, Alexander, Jackson:
 -2 Missing 3 P's for the two functions play_turn and pass_or_roll
 
 Ryleigh:
@@ -10,7 +10,7 @@ Ryleigh:
 Alexander:
 -2 Your design should be inside a function  (so when you write your codes, they are also included inside that function)
 
-Alexander:
+Alexander, Jackson:
 -5 Incomplete design. You should provide more details ( description, totals, counts, turns, display )
 
 Jiaming:
@@ -45,3 +45,9 @@ Aidan:
 
 Aidan:
 -5 your design should be included for each function, not having them all in one chunk
+
+Jackson:
+-1 Missing return in play_turn
+
+Jackson:
+-3 You must not define one function within another
