@@ -29,4 +29,19 @@ Jiaming:
 -1 Missing initialization of roll totals and pass counts for each player
 
 Jiaming:
--2 Missing while loop
+-1 Missing while loop
+
+Aidan:
+-0.5 pass_or_roll function has 1 parameter which is the player's name
+
+Aidan:
+-1 pass_or_roll function will not print whether it is a P or R, it returns the value in that case. Your function should use sentinel logic for the input validation.
+
+Aidan:
+-1 you should use while loop instead of for loop in the main function for the rounds as you do not know how many rounds will there be
+
+Aidan:
+-1 initialization should be done before the loop, not within it for the roll totals, pass count, and round count
+
+Aidan:
+-5 your design should be included for each function, not having them all in one chunk
