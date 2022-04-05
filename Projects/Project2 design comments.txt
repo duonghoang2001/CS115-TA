@@ -1,10 +1,10 @@
 Ryleigh, Alexander, Harrison:
 -5 This design does not use the intended functions (play_turn, pass_or_roll) in the design. These functions will have their own 3 P's and simplify the behavior of main. Each is described in the assignment instructions.
 
-Ryleigh, Alexander, Jackson, Harrison, Olivia, Gabe:
+Ryleigh, Alexander, Jackson, Harrison, Olivia, Gabe, Natalia:
 -2 Missing 3 P's for the two functions play_turn and pass_or_roll
 
-Ryleigh:
+Ryleigh, Natalia:
 -1 Missing initialization of round counter and its increment
 
 Alexander:
@@ -26,24 +26,24 @@ Jiaming:
 -0.5 set round counter to 1, not 0
 
 Jiaming:
--1 Missing initialization of roll totals and pass counts for each player
+-0.5 Missing initialization of roll totals and pass counts for each player
 
-Jiaming, Olivia:
--1 Missing while loop
+Jiaming, Olivia, Cristian, Wanda:
+-1 missing while loop and its description for input validation in pass_or_roll
 
 Aidan:
 -0.5 pass_or_roll function has 1 parameter which is the player's name
 
-Gabe:
+Gabe, Natalia, Jake:
 -1 Missing while loop description (when will the condition be met)
 
 Aidan:
 -1 pass_or_roll function will not print whether it is a P or R, it returns the value in that case. Your function should use sentinel logic for the input validation.
 
-Aidan:
+Aidan, Cristian:
 -1 you should use while loop instead of for loop in the main function for the rounds as you do not know how many rounds will there be
 
-Aidan:
+Aidan, Cristian:
 -1 initialization should be done before the loop, not within it for the roll totals, pass count, and round count
 
 Aidan:
@@ -52,7 +52,7 @@ Aidan:
 Jackson, Olivia:
 -1 Missing return in play_turn
 
-Jackson:
+Jackson, Natalia:
 -2 You must not define one function within another
 
 Gabe:
@@ -61,5 +61,9 @@ Gabe:
 Austin:
 -3 code-like comments
 
-Austin:
+Austin, Wanda:
 -3 Missing 3 P's for functions main, play_turn, and pass_or_roll
+
+Cristian:
+-0.5 pass_or_roll has 1 paramters: the player's name (string)
+
