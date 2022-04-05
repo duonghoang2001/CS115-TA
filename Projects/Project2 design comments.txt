@@ -28,7 +28,7 @@ Jiaming:
 Jiaming:
 -1 Missing initialization of roll totals and pass counts for each player
 
-Jiaming:
+Jiaming, Olivia:
 -1 Missing while loop
 
 Aidan:
@@ -49,7 +49,7 @@ Aidan:
 Aidan:
 -5 your design should be included for each function, not having them all in one chunk
 
-Jackson:
+Jackson, Olivia:
 -1 Missing return in play_turn
 
 Jackson:
@@ -57,3 +57,9 @@ Jackson:
 
 Gabe:
 -3 Your play_turn function design is containing the design of the main function. You should have a design for the main function also
+
+Austin:
+-3 code-like comments
+
+Austin:
+-3 Missing 3 P's for functions main, play_turn, and pass_or_roll
