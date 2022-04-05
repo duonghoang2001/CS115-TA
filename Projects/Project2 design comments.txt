@@ -1,7 +1,7 @@
-Ryleigh, Alexander:
+Ryleigh, Alexander, Harrison:
 -5 This design does not use the intended functions (play_turn, pass_or_roll) in the design. These functions will have their own 3 P's and simplify the behavior of main. Each is described in the assignment instructions.
 
-Ryleigh, Alexander, Jackson:
+Ryleigh, Alexander, Jackson, Harrison, Olivia, Gabe:
 -2 Missing 3 P's for the two functions play_turn and pass_or_roll
 
 Ryleigh:
@@ -10,7 +10,7 @@ Ryleigh:
 Alexander:
 -2 Your design should be inside a function  (so when you write your codes, they are also included inside that function)
 
-Alexander, Jackson:
+Alexander, Jackson, Harrison:
 -5 Incomplete design. You should provide more details ( description, totals, counts, turns, display )
 
 Jiaming:
@@ -34,6 +34,9 @@ Jiaming:
 Aidan:
 -0.5 pass_or_roll function has 1 parameter which is the player's name
 
+Gabe:
+-1 Missing while loop description (when will the condition be met)
+
 Aidan:
 -1 pass_or_roll function will not print whether it is a P or R, it returns the value in that case. Your function should use sentinel logic for the input validation.
 
@@ -50,4 +53,7 @@ Jackson:
 -1 Missing return in play_turn
 
 Jackson:
--3 You must not define one function within another
+-2 You must not define one function within another
+
+Gabe:
+-3 Your play_turn function design is containing the design of the main function. You should have a design for the main function also
