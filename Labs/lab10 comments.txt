@@ -1,0 +1,27 @@
+
+
+Team 2:
+-2 incorrect test case answer for F and I
+F. asGay icespray areway eallyray ighhay isthay emestersay
+I. appleway
+
+Team 2:
+-2 you would want to split by whitespace (a space, tab, newline, etc), not just space (' '). So, you would want to use english.split() instead
+
+Team 2:
+it is easier to iterate over the string 'aeiou' instead of a list
+
+Team 2:
+-2 incorrect 3 P's for find_vowel function:
+purpose: find the location of the first vowel in a string
+pre-cond: the word (a string).
+post-cond: It returns the location of the vowel that is closest to the left end of the word, and -1 if no vowel is found at all.
+
+Team 2:
+-2 missing if statements' descriptions (what are they trying to do)
+
+Team 2:
+you can use a while loop with the stopping conditions are while you have not reach the end of the string and no vowel has been found yet
+
+Team 2:
+-3 incorrectly handle version 2 case when first letter is vowel, add 'way' to word

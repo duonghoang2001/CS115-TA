@@ -76,3 +76,4 @@ def find_vowel(word: str):
     return vowel_ind
 
 main()
+
