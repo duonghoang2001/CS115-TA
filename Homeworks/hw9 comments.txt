@@ -24,3 +24,9 @@ Harrison:
 
 Harrison:
 -4 missing box 'YES' label
+
+Harrison:
+-1 missing close prompt
+
+Harrison:
+-2 missing win.getPoint() to pause the program waiting for the user
