@@ -30,3 +30,6 @@ Harrison:
 
 Harrison:
 -2 missing win.getPoint() to pause the program waiting for the user
+
+Harrison:
+-2 you should getMouse() once before the loop and use that point as the initial condition for the while loop
