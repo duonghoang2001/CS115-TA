@@ -33,3 +33,15 @@ Harrison:
 
 Harrison:
 -2 you should getMouse() once before the loop and use that point as the initial condition for the while loop
+
+Harrison:
+your window closed right after the program was run due to your while loop condition always satisfied and there was no getMouse() before close()
+
+Harrison, Olivia:
+-2 you were supposed to create 2 points, one by choice, and the other calculated based on the size
+
+Olivia:
+-2 you were getting new points without saving them to mouse_point to update your loop condition, which resulted in your loop keeping referring to the initial point clicked
+
+Gabe:
+-1 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
