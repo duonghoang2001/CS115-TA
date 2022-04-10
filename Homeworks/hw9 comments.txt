@@ -1,7 +1,7 @@
 Aidan:
 -2 the window was not closed after the click inside the box until the counter reached 11
 
-Aidan, Jackson, Harrison:
+Aidan, Jackson, Harrison, Elliot, Austin:
 -4 missing the answer to the questions in design
 
 Aidan:
@@ -37,7 +37,7 @@ Harrison:
 Harrison:
 your window closed right after the program was run due to your while loop condition always satisfied and there was no getMouse() before close()
 
-Harrison, Olivia:
+Harrison, Olivia, Austin:
 -2 you were supposed to create 2 points, one by choice, and the other calculated based on the size
 
 Olivia:
@@ -45,3 +45,6 @@ Olivia:
 
 Gabe:
 -2 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
+
+Austin:
+-2 you should have initialized your counter with 1, since the user already clicked once before the loop, then increased your counter after the getMouse() inside the loop
