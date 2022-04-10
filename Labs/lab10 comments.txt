@@ -25,3 +25,9 @@ you can use a while loop with the stopping conditions are while you have not rea
 
 Team 2:
 -3 incorrectly handle version 2 case when first letter is vowel, add 'way' to word
+
+Team 4: 
+-10 infinite loop. You are passing the incorrect variable into the function call find_vowel, should pass word (a string) instead of english_words (a list)
+
+Team 4:
+-1 slightly incorrect test case answer for case F. asGay icespray areway eallyray ighhay isthay emestersay

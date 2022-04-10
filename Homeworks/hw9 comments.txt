@@ -1,0 +1,20 @@
+Aidan:
+-2 the window was not closed after the click inside the box until the counter reached 11
+
+Aidan, Jackson, Harrison:
+-4 missing the answer to the questions in design
+
+Aidan:
+-3 you were supposed to create 2 points, one by choice, and the other calculated based on the size, then use that 2 points to create the rectangle
+
+Aidan:
+-3 the center of the box for the YES display should be calculated using the size
+
+Aidan:
+-4 your while loop condition should be based on the result of inbetween function
+
+Aidan:
+-2 'click to close' prompt was not display correctly due to the nested if statements
+
+Harrison:
+-6 missing main function's 3 P's
