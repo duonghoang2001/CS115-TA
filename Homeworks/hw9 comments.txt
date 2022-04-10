@@ -46,5 +46,5 @@ Olivia:
 Gabe:
 -2 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
 
-Austin:
--2 you should have initialized your counter with 1, since the user already clicked once before the loop, then increased your counter after the getMouse() inside the loop
+Jiaming, Austin:
+-2 you should have initialized your counter with 1, since the user already clicked once before the loop, then increased your counter after the getMouse() inside the loop because your program is not counting the last click (click that is inside the box) at the moment
