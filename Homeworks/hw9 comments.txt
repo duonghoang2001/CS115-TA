@@ -1,13 +1,13 @@
-Aidan:
+Aidan, Cristian:
 -2 the window was not closed after the click inside the box until the counter reached 11
 
-Aidan, Jackson, Harrison, Elliot, Austin:
+Aidan, Jackson, Harrison, Elliot, Austin, Natalia:
 -4 missing the answer to the questions in design
 
-Aidan:
+Aidan, Cristian:
 -3 you were supposed to create 2 points, one by choice, and the other calculated based on the size, then use that 2 points to create the rectangle
 
-Aidan:
+Aidan, Cristian:
 -3 the center of the box for the YES display should be calculated using the size
 
 Aidan:
@@ -46,5 +46,11 @@ Olivia:
 Gabe:
 -2 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
 
-Jiaming, Austin:
+Jiaming, Aidan, Austin, Cristian:
 -2 you should have initialized your counter with 1, since the user already clicked once before the loop, then increased your counter after the getMouse() inside the loop because your program is not counting the last click (click that is inside the box) at the moment
+
+Gabe:
+-1 you should display the click time right after you increase your counter and before you get the next click
+
+Cristian:
+-1 your design should interlace with your code
