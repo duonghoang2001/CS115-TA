@@ -18,3 +18,9 @@ Aidan:
 
 Harrison:
 -6 missing main function's 3 P's
+
+Harrison:
+-3 instead of creating a new Text object to display click count everytime, you should use setText() method with the initial Text object
+
+Harrison:
+-4 missing box 'YES' label
