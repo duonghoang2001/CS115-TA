@@ -44,4 +44,4 @@ Olivia:
 -2 you were getting new points without saving them to mouse_point to update your loop condition, which resulted in your loop keeping referring to the initial point clicked
 
 Gabe:
--1 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
+-2 the close prompt should be 'click to close', your current prompt should be displayed at the beginning
