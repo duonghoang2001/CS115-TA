@@ -10,16 +10,16 @@ Aidan, Cristian:
 Aidan, Cristian:
 -3 the center of the box for the YES display should be calculated using the size
 
-Aidan:
+Aidan, Cristian:
 -4 your while loop condition should be based on the result of inbetween function
 
-Aidan:
+Aidan, Cristian:
 -2 'click to close' prompt was not display correctly due to the nested if statements
 
 Harrison:
 -6 missing main function's 3 P's
 
-Harrison:
+Harrison, Aidan, Cristian:
 -3 instead of creating a new Text object to display click count everytime, you should use setText() method with the initial Text object
 
 Harrison:
