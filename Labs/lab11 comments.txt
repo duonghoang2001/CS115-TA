@@ -1,0 +1,38 @@
+Team 1:
+-0.5 for pre-cond, user ID is str type, not int type
+
+Team 1:
+-1 should use tab \t to line up the columns
+
+Team 2:
+-0.5 missing types of pre-cond: patient number (str), 3 tempeartures (floats)
+
+Team 2:
+-3 missing design comments for the diagnosis if/elif/else statements
+
+Team 2:
+-6 missing made-up test case
+
+Team 2:
+-6 program failed to pass all test cases except for the no patient test case
+
+Team 2:
+-1 your PT_list is a dictionary, not a list
+also, you only need to initialize the PT_list = [], fever = 0, chilled = 0, all the other initializations were redundant
+
+Team 2:
+-2 the temperatures should be cast as floats instead of ints
+
+Team 2:
+-6 incorrect implementation of list
++ the name is the first element in your <element> list, thus, should be element[0] instead of element[i]
++ PT_list[i] = (element[i], average) is not a valid syntax even when you initialized it as a dict
++ Here is a way to add a new element to a 2-D list:
+PT_list = []
+PT_list.append([element[0], average])
+
+Team 2:
+-2 instead of using a counter for the number of patients, using len(PT_list) should give you that number
+
+Team 2:
+-1 you only need to check once if there were more than 0 patients processed (len(PT_list) > 0) then do the percentage calculations and print them out in the same if statement
