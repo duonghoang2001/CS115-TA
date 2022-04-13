@@ -7,7 +7,7 @@ Team 1:
 Team 2:
 -0.5 missing types of pre-cond: patient number (str), 3 temperatures (floats)
 
-Team 2, Team 1:
+Team 2, Team 1, Team 5:
 -2 missing design comments for the diagnosis if/elif/else statements
 
 Team 2:
@@ -31,21 +31,24 @@ Team 2:
 PT_list = []
 PT_list.append([element[0], average])
 
-Team 2:
+Team 2, Team 5:
 -2 instead of using a counter for the number of patients, using len(PT_list) should give you that number
 
 Team 2:
 -1 you only need to check once if there were more than 0 patients processed (len(PT_list) > 0) then do the percentage calculations and print them out in the same if statement
 
+Team 2, Team 5:
+-1 incorrect method of accessing list elements
 Team 2:
--2 incorrect method of accessing list elements
 + you are using "for num in PT_list" which means num will be each of the elements in your list, so the way you access average is num[1]
 + if you want to use indexing "PT_list[num][1]", your for loop should be: "for num in range(len(PT_list))", then num will be the number from 0 to len(PT_list) - 1
+Team 5:
++ append() is used to add elements to the list, if you want to access an already existing element inside a list, just do total_list[index]
 
 Team 2:
 -1 you do not need to keep track of regular patients
 
-Team 2:
+Team 2, Team 5:
 Please come see me during my office hours (or any other TAs or Dr. Eby) or reach out to me via email if you still have questions about this lab. Make sure to understand how to complete this lab correctly as it is very similar to the upcoming Lab Test 2.
 
 Team 3:
@@ -69,3 +72,21 @@ print number of patients processed
 if #patients > 0:
     calculate percentage
     output report
+
+Team 5:
+-9 program failed to output
+
+Team 5:
+-3 you need to cast the temperatures to floats to do the calculation
+
+Team 5:
+-3 failed to split inputs correctly, here is a way to do so:
+# replace commas with spaces then split data on whitespace
+total_list = patient_info.replace(",", " ").split()
+
+Team 5:
+-1 should use for loop instead of while loop because it is going through a fixed number of iterations:
+for i in range(len(final_num)):
+or to better cooperate with your current code:
+for counter in range(len(final_num)):
+
