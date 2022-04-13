@@ -36,3 +36,14 @@ Team 2:
 
 Team 2:
 -1 you only need to check once if there were more than 0 patients processed (len(PT_list) > 0) then do the percentage calculations and print them out in the same if statement
+
+Team 2:
+-2 incorrect method of accessing list elements
++ you are using "for num in PT_list" which means num will be each of the elements in your list, so the way you access average is num[1]
++ if you want to use indexing "PT_list[num][1]", your for loop should be: "for num in range(len(PT_list))", then num will be the number from 0 to len(PT_list) - 1
+
+Team 2:
+-1 you do not need to keep track of regular patients
+
+Team 2:
+Please come see me during my office hours (or any other TAs or Dr. Eby) or reach out to me via email if you still have questions about this lab. Make sure to understand how to complete this lab correctly as it is very similar to the upcoming Lab Test 2.
