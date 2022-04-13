@@ -54,7 +54,7 @@ Please come see me during my office hours (or any other TAs or Dr. Eby) or reach
 Team 3:
 -12 missing design comments
 
-Team 3:
+Team 3, Team 5:
 -1 failed to handle edge cases (eg: 99999 , 98.701 , 98.701 , 98.701) due to previous round off when appending average to list, you should only format to 2 decimals in the print statement and leave the average in the list as the calculated floats
 
 Team 3:
