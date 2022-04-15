@@ -1,4 +1,4 @@
-# CS 115 Spring 2022 - Project 2 Key
+# CS 115 Spring 2022 - Project 2 Phase II Key
 # Author: Duong Hoang
 # Section: 003
 # Email: duong.hoang@uky.edu
