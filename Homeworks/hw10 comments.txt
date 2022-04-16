@@ -1,0 +1,18 @@
+Ryleigh:
+sentinel logic was not used, an example would be:
+.content = input("Enter line: ")
+.while content != '':
+.    # process the string here
+.    content = input("Enter line: ")
+
+Ryleigh:
+no split was used, instead of checking each space to count words, do: words = content.split() would return a list of words separated by whitespace
+
+Ryleigh:
+-4 you should just split the content into words, then use len(word) to count the number of characters contain in that word
+also, you should not use 'continue'
+
+Ryleigh:
+-4 design choices were not documented
+
+Ryleigh:
