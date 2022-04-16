@@ -1,5 +1,5 @@
-Ryleigh:
-sentinel logic was not used, an example would be:
+Ryleigh, Alexander:
+-8 sentinel logic was not used, an example would be:
 .content = input("Enter line: ")
 .while content != '':
 .    # process the string here
@@ -12,7 +12,22 @@ Ryleigh:
 -4 you should just split the content into words, then use len(word) to count the number of characters contain in that word
 also, you should not use 'continue'
 
-Ryleigh:
+Ryleigh, Alexander:
 -4 design choices were not documented
 
 Ryleigh:
+the parentheses were redundant
+
+Ryleigh, Alexander, Wanda:
+-30 you must NOT use 'break'
+
+Jiaming:
+-4 you should use the input itself as a condition for the while loop, then only split it if it is not an empty string, for example:
+.content = input("Enter line: ")
+.while content != '':
+.    # process the string here
+.    content = input("Enter line: ")
+
+Jiaming:
+-4 you already have the total number of word count for each input, using len(), so it is inefficient to increase the counter inside the for loop
+
