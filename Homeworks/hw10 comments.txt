@@ -37,5 +37,5 @@ Aidan:
 Jackson:
 you should put the print statements after the if/else statement for better efficiency
 
-Olivia:
+Olivia, Gabe:
 -2 design choice about line processing was not documented
