@@ -1,4 +1,4 @@
-Ryleigh, Alexander, Gabe, Elliot:
+Ryleigh, Alexander, Gabe, Elliot, Cristian:
 -8 sentinel logic was not used, an example would be:
 .content = input("Enter line: ")
 .while content != '':
@@ -12,7 +12,7 @@ Ryleigh:
 -4 you should just split the content into words, then use len(word) to count the number of characters contain in that word
 also, you should not use 'continue'
 
-Ryleigh, Alexander, Jiaming, Aidan, Jackson:
+Ryleigh, Alexander, Jiaming, Aidan, Jackson, Elliot, Natalia, Jake, Cristian:
 -4 design choices were not documented
 
 Ryleigh:
@@ -28,7 +28,7 @@ Jiaming:
 .    # process the string here
 .    content = input("Enter line: ")
 
-Jiaming:
+Jiaming, Austin:
 -4 you already have the total number of word count for each input, using len(), so it is inefficient to increase the counter inside the for loop
 
 Aidan:
@@ -39,3 +39,9 @@ you should put the print statements after the if/else statement for better effic
 
 Olivia, Gabe:
 -2 design choice about line processing was not documented
+
+Austin:
+-2 design choice about the type of loop for word length was not documented
+
+Austin:
+-4 you already have the total number of character count for each word, using len(), so just traverse through each word and add len() of each of them
