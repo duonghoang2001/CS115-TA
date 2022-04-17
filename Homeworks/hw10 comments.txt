@@ -12,7 +12,7 @@ Ryleigh:
 -4 you should just split the content into words, then use len(word) to count the number of characters contain in that word
 also, you should not use 'continue'
 
-Ryleigh, Alexander, Jiaming, Aidan:
+Ryleigh, Alexander, Jiaming, Aidan, Jackson:
 -4 design choices were not documented
 
 Ryleigh:
@@ -33,4 +33,7 @@ Jiaming:
 
 Aidan:
 -1 the test case answers should also be shown as 2 decimals
+
+Jackson:
+you should put the print statements after the if/else statement for better efficiency
 
