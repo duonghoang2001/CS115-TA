@@ -37,11 +37,12 @@ def main():
     info_lst.sort()
     # report total payroll formatted to 2 decimal places
     print("\nTotal Payroll ${:.2f}".format(total_pay))
-    # print paycheck report header
-    print("\nEmployees with Paychecks")
-    # report each paycheck
-    for i in range(len(info_lst)):
-        print("{}\t${:.2f}".format(info_lst[i][0], info_lst[i][1]))
+    # print paycheck report header if there were data entries
+    if len(info_lst) > 0:
+        print("\nEmployees with Paychecks")
+        # report each paycheck
+        for i in range(len(info_lst)):
+            print("{}\t${:.2f}".format(info_lst[i][0], info_lst[i][1]))
     
 def get_paycheck(info: list):
     '''
