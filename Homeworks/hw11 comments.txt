@@ -1,0 +1,93 @@
+Ryleigh, Jackson, Harrison, Gabe:
+-3 incorrect order, should be listed by name in ascending order
+
+Ryleigh, Harrison:
+-3 missing 3P's for the function that calculates the amount of pay the employee gets
+
+Ryleigh, Jackson:
+-9 missing design comments
+
+Ryleigh, Gabe:
+(no credit) sentinel logic was not used, you should do:
+.user_input = input("Enter Employee Information: ")
+.while user_input != "":
+.       # process data here
+.       user_input = input("Enter Employee Information: ")
+
+Ryleigh:
+(no credit) no function was called
+
+Ryleigh:
+-2 your list element should be of the format [employee name, paycheck], not [employee name, hours worked, hourly rate]
+
+Ryleigh:
+(no credit) should just be data.sort() with no arguments given, and should be sorted before the for loop that prints out paycheck reports
+
+Ryleigh, Alexander, Jackson, Harrison, Gabe:
+-1 should use tab "\t" instead of spaces to line up the columns
+
+Ryleigh, Alexander, Harrison:
+(no credit) missing a function declaration outside main function, for example:
+.def get_paycheck(info):
+.       return float(info[1]) * float(info[2])
+
+Alexander, Aidan:
+-1 missing description for the loop conditions
+
+Alexander, Jiaming, Harrison, Olivia:
+-2 only need to split input by commas
+employee_info = raw_input.split(",")
+
+Alexander:
+you do not need the else branch in this case as nothing would be changed
+
+Alexander:
+-1 inefficient appending method
+employee_list.append([employee_info[0], paycheck])
+
+Jiaming:
+-1 initialize an empty list with
+employee_data =[]
+also, you don't need to initialize _list as an empty list
+
+Jiaming, Alexander, Aidan:
+-3 missing documentation comment about function call for calculating function
+
+Aidan:
+-2 you should check with an empty string "" instead of a space " ".  This is causing your program to raise an index error as it reads empty string, split it by whitespace which returns an empty list that could never be access by index. The if/else statements within the while loop are also unnecessary
+
+Jackson:
+-0.5 the header "Employees with Paychecks" should not be displayed if there were no entries
+
+Jackson, Gabe:
+(no credit) your list should be sorted by name in ascending order before outputting the paychecks using employee_list.sort()
+
+Jackson:
+-3 the variable you defined in main() will not be available in other functions. Here is how you should have done it:
+.def pay_roll(employee_list):
+.   return float(employee_list[1]) * float(employee_list[2])
+
+Jackson, Gabe:
+-1 Precond for pay_roll function is a list of strings that contains name, hours worked, and hourly rate 
+
+Harrison, Olivia:
+you should place the new input statement at the bottom (last line) of your while loop
+
+Harrison:
+-1 you only need to sort the list once after the while loop
+
+Gabe:
+-2 the parameter should be a list of strings that contains name, hours worked, and hourly rate, so an example of the function would be:
+.def get_paycheck(info):
+.       return float(info[1]) * float(info[2])
+
+Olivia, Gabe:
+-1 incomplete documentation comment about function call for calculating function
+
+Elliot:
+no test case answers were included. this part should have been calculated by hand to check your program's performance
+
+Elliot:
+-1 empty_list = [] should be sufficient to initialize. 
+also, you should give it a more meaningful name such as employees_list, etc.
+
