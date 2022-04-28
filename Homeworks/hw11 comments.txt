@@ -1,32 +1,35 @@
-Ryleigh, Jackson, Harrison, Gabe:
+Ryleigh, Jackson, Harrison, Gabe, Wanda:
 -3 incorrect order, should be listed by name in ascending order
 
-Ryleigh, Harrison:
+Jake:
+-1.5 your test case answers are listed in incorrect order, should be listed by name in ascending order
+
+Ryleigh, Harrison, Elliot, Austin:
 -3 missing 3P's for the function that calculates the amount of pay the employee gets
 
 Ryleigh, Jackson:
 -9 missing design comments
 
-Ryleigh, Gabe, Elliot:
+Ryleigh, Gabe, Elliot, Cristian, Wanda:
 (no credit) sentinel logic was not used, you should do:
 .user_input = input("Enter Employee Information: ")
 .while user_input != "":
 .       # process data here
 .       user_input = input("Enter Employee Information: ")
 
-Ryleigh, Alexander, Harrison, Elliot:
+Ryleigh, Alexander, Harrison, Elliot, Wanda:
 (no credit) no function was called
 
-Ryleigh:
+Ryleigh, Jake, Wanda:
 -2 your list element should be of the format [employee name, paycheck], not [employee name, hours worked, hourly rate]
 
-Ryleigh:
-(no credit) should just be data.sort() with no arguments given, and should be sorted before the for loop that prints out paycheck reports
+Ryleigh, Wanda:
+-3 should just be data.sort() with no arguments given, and should be sorted before the for loop that prints out paycheck reports
 
-Ryleigh, Alexander, Jackson, Harrison, Gabe, Elliot:
+Ryleigh, Alexander, Jackson, Harrison, Gabe, Elliot, Jake, Wanda:
 -1 should use tab "\t" instead of spaces to line up the columns
 
-Ryleigh, Alexander, Harrison, Elliot:
+Ryleigh, Alexander, Harrison, Elliot, Austin, Wanda:
 (no credit) missing a function declaration outside main function, for example:
 .def get_paycheck(info):
 .       return float(info[1]) * float(info[2])
@@ -34,15 +37,15 @@ Ryleigh, Alexander, Harrison, Elliot:
 Alexander, Aidan:
 -1 missing description for the loop conditions
 
-Alexander, Jiaming, Harrison, Olivia:
+Alexander, Jiaming, Harrison, Olivia, Jake, Cristian:
 -2 only need to split input by commas
 employee_info = raw_input.split(",")
 
 Alexander:
 you do not need the else branch in this case as nothing would be changed
 
-Alexander:
--1 inefficient appending method
+Alexander, Austin:
+inefficient appending method
 employee_list.append([employee_info[0], paycheck])
 
 Jiaming:
@@ -84,10 +87,21 @@ Gabe:
 Olivia, Gabe:
 -1 incomplete documentation comment about function call for calculating function
 
-Elliot:
-no test case answers were included. this part should have been calculated by hand to check your program's performance
+Elliot, Austin:
+-5 no test case answers were included. this part should have been calculated by hand to check your program's performance
+
+Elliot: 
+-3 your program outputted more than it should have been
 
 Elliot:
 -1 empty_list = [] should be sufficient to initialize. 
 also, you should give it a more meaningful name such as employees_list, etc.
 
+Elliot, Wanda:
+-15 penalty for codes outside of a function
+
+Austin, Cristian:
+use tab "\t" would line up the columns
+
+Wanda:
+-1 should be formatted to 2 decimal places
