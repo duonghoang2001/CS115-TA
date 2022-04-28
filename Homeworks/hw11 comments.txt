@@ -7,14 +7,14 @@ Ryleigh, Harrison:
 Ryleigh, Jackson:
 -9 missing design comments
 
-Ryleigh, Gabe:
+Ryleigh, Gabe, Elliot:
 (no credit) sentinel logic was not used, you should do:
 .user_input = input("Enter Employee Information: ")
 .while user_input != "":
 .       # process data here
 .       user_input = input("Enter Employee Information: ")
 
-Ryleigh:
+Ryleigh, Alexander, Harrison, Elliot:
 (no credit) no function was called
 
 Ryleigh:
@@ -23,10 +23,10 @@ Ryleigh:
 Ryleigh:
 (no credit) should just be data.sort() with no arguments given, and should be sorted before the for loop that prints out paycheck reports
 
-Ryleigh, Alexander, Jackson, Harrison, Gabe:
+Ryleigh, Alexander, Jackson, Harrison, Gabe, Elliot:
 -1 should use tab "\t" instead of spaces to line up the columns
 
-Ryleigh, Alexander, Harrison:
+Ryleigh, Alexander, Harrison, Elliot:
 (no credit) missing a function declaration outside main function, for example:
 .def get_paycheck(info):
 .       return float(info[1]) * float(info[2])
@@ -50,7 +50,7 @@ Jiaming:
 employee_data =[]
 also, you don't need to initialize _list as an empty list
 
-Jiaming, Alexander, Aidan:
+Jiaming, Alexander, Aidan, Elliot:
 -3 missing documentation comment about function call for calculating function
 
 Aidan:
