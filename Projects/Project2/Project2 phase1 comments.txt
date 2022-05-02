@@ -52,3 +52,33 @@ Ryleigh:
 
 Ryleigh:
 (no credit) function was not defined
+
+Ryleigh:
+(no credit) function was not defined
+Here is an example of pass_or_roll function:
+def pass_or_roll(player: str):
+    '''
+        Purpose: ask the player (pname) whether they want to pass the die or roll
+                invalid answers are rejected until the player enters either P or R
+                upper or lower case
+        Precondition: the player's name (string)
+        Postcondition: either P or R (string) based on player's answer (always uppercase)
+    '''
+    # prompt the player P or R using player's name and get the player's answer
+    choice = input("Player {} (P)ass or (R)oll? ".format(player))
+    # make it uppercase
+    choice = choice.upper()
+    # while the answer is not valid
+    while choice != 'P' and choice != 'R':
+        # display error message
+        print("Invalid response, P or R please")
+        # get the player's answer
+        choice = input("Player {} (P)ass or (R)oll? ".format(player))
+        # make it uppercase
+        choice = choice.upper()
+    
+    # return the player's answer
+    return choice
+
+Jiaming:
+(no credit) missing prologs and design comments
