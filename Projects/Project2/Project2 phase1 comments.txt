@@ -1,10 +1,10 @@
-Ryleigh:
--5 wrong rolls (different seed)
+Ryleigh, Harrison:
+-5 wrong rolls generated due to wrong random range
 
 Ryleigh:
 (no credit) no functions were called
 
-Ryleigh:
+Ryleigh, Aidan:
 -1 should have used if and else statements instead of 2 if statements as there are only 2 possibilities
 
 Ryleigh:
@@ -82,3 +82,40 @@ def pass_or_roll(player: str):
 
 Jiaming:
 (no credit) missing prologs and design comments
+
+Jiaming, Harrison:
+-1 unmatched invalid input report
+
+Jiaming, Harrison:
+-1 player 2 should not roll when player 1 total rolls already exceed 21
+
+Jiaming:
+-1 you should report/print the roll inside the function play_turn() instead of trying to figure that number of in main()
+
+Jackson:
+-1 slightly off while loop condition, should be "<" instead of "<="
+
+Jackson:
+-1 to verify the return of pass_or_roll() was a "P" or "R", you should have used if and else statements instead of 2 if statements as there are only 2 possibilities 
+
+Jackson:
+-1 to check whether user still had passes left, you should have used if and else statements instead of 2 if statements as there are only 2 possibilities
+
+Jackson:
+-3 your otherwise branch should not be inside the if branch checking whether user still had passes, this created an infinite loop after the user ran out of passes
+
+Harrison:
+-1 input should be on the same line with the prompt by using: input("prompt_goes_here")
+
+Harrison:
+-1 there should only be 2 possibilities, either player 1 wins or player 2 wins
+
+Harrison:
+-1 missing prolog for play_turn function
+
+Harrison:
+-1 missing prolog for pass_or_roll function
+
+Harrison:
+-1 you should only have 1 return statement
+
