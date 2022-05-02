@@ -1,0 +1,54 @@
+Ryleigh:
+-5 wrong rolls (different seed)
+
+Ryleigh:
+(no credit) no functions were called
+
+Ryleigh:
+-1 should have used if and else statements instead of 2 if statements as there are only 2 possibilities
+
+Ryleigh:
+(no credit) function was not defined
+Here is an example of play_turn function:
+def play_turn(player: str, total: int, pass_count: int):
+    '''
+        Purpose: to do one player's turn, performing rolls or passes as player chooses
+        Precondition: player name (string), player roll total (int), player's pass count (int)
+        Postcondition: player roll total and player's pass count, both int, modified as needed
+                if player passed, pass count reduced, if player rolled, roll total increased
+    '''
+    # if the players still has at least 1 pass
+    if pass_count > 0:
+        # ask do you want to roll or pass 
+        choice = pass_or_roll(player)
+        # if they choose roll, 
+        if choice == 'R':
+            # roll a die 
+            roll = random.randint(1, 6)
+            # add roll to roll total
+            total += roll
+            # display roll to players
+            print(player, "rolled a", roll)
+        # otherwise 
+        else:
+            # state that the player passed the roll
+            print(player, "passed the roll")
+            # take one from pass count
+            pass_count -= 1
+    # otherwise roll a die and add to total (ran out of passes)
+    else:
+        # roll a die
+        roll = random.randint(1, 6)
+        # add roll to roll total
+        total += roll
+        # display roll to players
+        print(player, "rolled a", roll)
+        
+    # returns total roll, passcount
+    return total, pass_count
+
+Ryleigh:
+-1 wrong random range, should be (1,6)
+
+Ryleigh:
+(no credit) function was not defined
