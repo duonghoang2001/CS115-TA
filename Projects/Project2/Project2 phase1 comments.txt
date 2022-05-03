@@ -4,7 +4,7 @@ Ryleigh, Harrison:
 Ryleigh:
 (no credit) no functions were called
 
-Ryleigh, Aidan:
+Ryleigh, Aidan, Gabe, Elliot:
 -1 should have used if and else statements instead of 2 if statements as there are only 2 possibilities
 
 Ryleigh:
@@ -47,7 +47,7 @@ def play_turn(player: str, total: int, pass_count: int):
     # returns total roll, passcount
     return total, pass_count
 
-Ryleigh:
+Ryleigh, Harrison:
 -1 wrong random range, should be (1,6)
 
 Ryleigh:
@@ -95,11 +95,11 @@ Jiaming:
 Jackson:
 -1 slightly off while loop condition, should be "<" instead of "<="
 
-Jackson:
+Jackson, Gabe:
 -1 to verify the return of pass_or_roll() was a "P" or "R", you should have used if and else statements instead of 2 if statements as there are only 2 possibilities 
 
-Jackson:
--1 to check whether user still had passes left, you should have used if and else statements instead of 2 if statements as there are only 2 possibilities
+Jackson, Gabe:
+-1 to check whether player still had passes left, you should have used if and else statements instead of 2 if statements as there are only 2 possibilities
 
 Jackson:
 -3 your otherwise branch should not be inside the if branch checking whether user still had passes, this created an infinite loop after the user ran out of passes
@@ -110,12 +110,84 @@ Harrison:
 Harrison:
 -1 there should only be 2 possibilities, either player 1 wins or player 2 wins
 
-Harrison:
+Ryleigh, Harrison:
 -1 missing prolog for play_turn function
 
-Harrison:
+Ryleigh, Harrison:
 -1 missing prolog for pass_or_roll function
 
-Harrison:
+Harrison, Olivia:
 -1 you should only have 1 return statement
 
+Olivia:
+-1 missing return pass count
+
+Olivia:
+you could have just initialized the round counter to 1
+
+Olivia:
+-5 your input was not taken until it satisfied the conditions. your if statements should be inside a while loop, here is an example:
+def pass_or_roll(player: str):
+    '''
+        Purpose: ask the player (pname) whether they want to pass the die or roll
+                invalid answers are rejected until the player enters either P or R
+                upper or lower case
+        Precondition: the player's name (string)
+        Postcondition: either P or R (string) based on player's answer (always uppercase)
+    '''
+    # prompt the player P or R using player's name and get the player's answer
+    choice = input("Player {} (P)ass or (R)oll? ".format(player))
+    # make it uppercase
+    choice = choice.upper()
+    # while the answer is not valid
+    while choice != 'P' and choice != 'R':
+        # display error message
+        print("Invalid response, P or R please")
+        # get the player's answer
+        choice = input("Player {} (P)ass or (R)oll? ".format(player))
+        # make it uppercase
+        choice = choice.upper()
+    
+    # return the player's answer
+    return choice
+
+Olivia, Gabe:
+-5 incorrectly reported current total rolls
+
+Olivia:
+-1 winner should be reported after the while loop
+
+Olivia:
+-1 condition to win should be when their final total_rolls is smaller than 21, not equal
+
+Olivia:
+-5 infinite loop due to total_rolls and pass_count were not updated
+
+Olivia, Gabe:
+-3 instead of using flag, you could have done:
+while player1_roll_total < 21 and player2_roll_total < 21:
+
+Olivia:
+-3 you have to save the returns to your variables to update the value
+
+Gabe:
+you can return 2 values from a function separated by a comma (not in parentheses) and when you call the function, you can save both values in 2 variables also separated by a comma:
+def play_turn(player: str, total: int, pass_count: int):
+    # some codes here
+    return total, pass_count
+
+def main():
+    # some codes here
+    while p1_total < 21 and p2_total < 21:
+        # some codes here
+        p1_total, p1_pass_ct = play_turn(p1, p1_total, p1_pass_ct)
+
+Gabe:
+-1 you do not need to recheck pass_count again inside the the brach that already checked for pass_count
+
+Gabe:
+-1 should return 2 values instead of a tuple (no parentheses around return values):
+return total_rolls, pass_count
+
+Elliot:
+-1 you do not need to cast input to str as it was already str type
