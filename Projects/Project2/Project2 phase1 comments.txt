@@ -201,3 +201,23 @@ Austin:
 Austin:
 -1 redundance if statement, you only need the while loop condition:
 while r_p != 'P' and r_p != 'R':
+
+Natalia:
+-1 you do not need the flag, just use the total_rolls to verify who was the winner:
+    if p1_total < 21:
+        print(p1, "won!")
+    else:
+        print(p2, "won!")
+
+Natalia:
+-3 you need to pass in player_1, roll_total1, and passes_1 to function play_turn instead (same with player 2). and when you save the return values, save them right back to roll_total and passes to update the values
+
+Natalia:
+(no credit) program failed to output
+
+Natalia:
+-1 you should use the roll_total and pass_count values that were passed in the argument instead initialize them 
+
+Natalia:
+-1 you do not need to check for lowercase letter as the pass_or_roll should return an uppercase letter
+
