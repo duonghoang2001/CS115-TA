@@ -4,7 +4,7 @@ Ryleigh, Harrison:
 Ryleigh:
 (no credit) no functions were called
 
-Ryleigh, Aidan, Gabe, Elliot, Austin:
+Ryleigh, Aidan, Gabe, Elliot, Austin, Cristian:
 -1 should have used if and else statements instead of 2 if statements as there are only 2 possibilities
 
 Ryleigh:
@@ -110,13 +110,13 @@ Harrison:
 Harrison:
 -1 there should only be 2 possibilities, either player 1 wins or player 2 wins
 
-Ryleigh, Harrison:
+Ryleigh, Harrison, Wanda:
 -2 missing prolog for play_turn function
 
-Ryleigh, Harrison:
+Ryleigh, Harrison, Wanda:
 -2 missing prolog for pass_or_roll function
 
-Harrison, Olivia:
+Harrison, Olivia, Wanda:
 -1 you should only have 1 return statement
 
 Olivia:
@@ -170,7 +170,7 @@ while player1_roll_total < 21 and player2_roll_total < 21:
 Olivia:
 -3 you have to save the returns to your variables to update the value
 
-Gabe:
+Gabe, Wanda:
 you can return 2 values from a function separated by a comma (not in parentheses) and when you call the function, you can save both values in 2 variables also separated by a comma:
 def play_turn(player: str, total: int, pass_count: int):
     # some codes here
@@ -185,7 +185,7 @@ def main():
 Gabe:
 -1 you do not need to recheck pass_count again inside the the brach that already checked for pass_count
 
-Gabe:
+Gabe, Wanda:
 -1 should return 2 values instead of a tuple (no parentheses around return values):
 return total_rolls, pass_count
 
@@ -195,7 +195,7 @@ Elliot:
 Elliot, Gabe:
 -2 wrong rolls were generated due to different seed
 
-Austin:
+Austin, Wanda:
 -2 missing prolog for main function
 
 Austin:
@@ -221,3 +221,55 @@ Natalia:
 Natalia:
 -1 you do not need to check for lowercase letter as the pass_or_roll should return an uppercase letter
 
+Natalia:
+-1 when you make it uppercase, you have to save the value to update it:
+action = action.upper()
+
+Natalia:
+-1 return value has to be uppercase
+
+Jake:
+-2 passes for each player should be initialized to 3
+
+Jake, Wanda:
+-1 missing roll result report
+
+Jake:
+-5 incorrectly reported final total rolls and pass count due to wrong pass count initialization
+
+Cristian:
+-10 you should not define function within each other
+
+Wanda:
+-1 missing round display
+
+Wanda:
+-5 missing current total rolls and pass counts report every round
+
+Wanda:
+-1 round should be initialized to 1
+
+Wanda:
+-1 round count should be displayed every round
+
+Wanda:
+-4 incorrect loop logic, here is an example to implement the loop correctly:
+    #  while both totals are < 21
+    while p1_total < 21 and p2_total < 21:
+        # display round counter
+        print("\nRound {}:".format(round_ct))
+        # play a turn for player 1
+        p1_total, p1_pass_ct = play_turn(p1, p1_total, p1_pass_ct)
+        # if player 1's total is < 21
+        if p1_total < 21:
+            # play a turn for player 2
+            p2_total, p2_pass_ct = play_turn(p2, p2_total, p2_pass_ct)
+        # increment round counter
+        round_ct += 1
+        # display info for both players
+        print()
+        print(p1, "total roll", p1_total, "passes", p1_pass_ct, end='\t|\t')
+        print(p2, "total roll", p2_total, "passes", p2_pass_ct, '\n')
+
+Wanda:
+-2 incorrectly saved the return values.

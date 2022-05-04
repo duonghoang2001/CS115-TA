@@ -1,0 +1,148 @@
+Alexander, Aidan:
+-2 you need to clear the screen (undraw some objects) before displaying the roll/pass result, then clear one more time before prompting for next action
+
+Alexander:
+-1 you need to update the Text object using setText() instead of keep drawing on top of each other
+
+Alexander, Jackson, Olivia, Gabe, Elliot:
+-2 you should draw the image inside this function, not in the play_turn function
+
+Alexander:
+-2 while loop failed to run as function play_turn return player_count and player_pass as str instead of int
+
+Alexander, Ryleigh:
+-1 program failed to display text as Text object was given too many argument, you should only pass one string instead of having multiple elements separated by commas like in print()
+
+Jiaming:
+-1 text objects were not properly displayed due to off ratio between text size and window size
+
+Jiaming, Jake:
+-0.5 input boxes covered part of the prompt
+
+Jiaming, Aidan, Austin, Cristian:
+-2 function return Image object, not the window, then the object would be undraw in the play_turn function
+
+Jiaming, Harrison, Olivia, Elliot, Wanda:
+-1 missing prolog for draw_die function
+
+Harrison, Elliot, Wanda:
+-1 missing prolog for inbetween function
+
+Ryleigh:
+-2 your inbetween function failed to perform the task, you can see the correct version in homework 9
+
+Ryleigh, Aidan:
+(no credit) title was not displayed
+
+Ryleigh:
+-1 incorrect parameter for draw_die function, should be:
+def draw_die(roll, win):
+
+Ryleigh:
+-2 objects were created but weren't drawn 
+
+Ryleigh:
+-1 missing getMouse() to leave time for user to type
+
+Ryleigh:
+-2 missing getText() to get input from boxes
+
+Ryleigh:
+-2 missing importing graphics library 
+
+Ryleigh, Olivia:
+-5 objects were created but not used
+
+Ryleigh, Aidan, Austin, Cristian:
+-1 missing a parameter "player" and incorrect parameter provided
+def pass_or_roll(player, win):
+
+Ryleigh, Olivia:
+-1 you don't get Entry nor input() for the action, you get user click in corresponding button
+
+Ryleigh:
+-1 a Rectangle object does not have setText() operation, you have to create a Text object centered at the center of the Rectangle object
+
+Ryleigh:
+-1 buttons were not drawn
+
+Ryleigh:
+-1 missing call to inbetween function to verify which action was chosen
+
+Ryleigh:
+-10 penalty for codes outside of main function. Also, you do not need to give an argument when calling main()
+
+Aidan, Austin:
+-1 missing display round count
+
+Aidan:
+-2 player 2 was never prompt to choose an action due to incorrect if statement indentation in main funcion
+
+Aidan:
+-1 skip count was not updated correctly
+
+Aidan:
+-1 program failed to perform pass action 
+
+Aidan:
+-1 some uninitialized objects were set causing program to crash
+
+Aidan:
+-1 some uninitialized objects were undrawn causing program to crash
+
+Aidan, Olivia, Cristian, Wanda:
+-1 function failed to handle point clicked outside of the 2 buttons
+
+Harrison, Wanda:
+-10 penalty for using break, you can just use the return of inbetween function as your while loop condition
+
+Olivia:
+-1 instead of hard code the file name as the Image object argument, you can just pass in "{}.gif".format(number_rolled)
+
+Olivia:
+-1 incorrect call to draw() operator. It should be of the form: OBJECT.draw(win) with OBJECT is a graphics object that was initialized
+
+Olivia:
+-1 incorrectly create a Text object, should just be Text(...), not win.Text(...)
+
+Olivia:
+(no credit) incorrect call to undraw() operator. It should be of the form: OBJECT.undraw() with OBJECT is a graphics object that was drawn
+
+Elliot:
+-0.5 player2's pass count display was not updated
+
+Austin:
+-1 buttons should be created here instead of in main()
+
+Austin, Cristian:
+-1 player action prompt should be created here instead of in main()
+
+Jake:
+-1 missing display action result
+
+Jake, Cristian:
+-3 missing display player name, current total rolls, current passes left for each player
+
+Wanda:
+-1 missing prolog for pass_or_roll function
+
+Wanda:
+-1 missing prolog for play_turn function
+
+Wanda:
+(no credit) GIF files were not used
+
+Wanda:
+(no credit) function was not declared
+
+Wanda:
+-1 you do not need to cast entry to str as it is already a str
+
+Wanda:
+-5 gameplay was not able to display due to the window you were drawing to had already close by the while loop
+
+Wanda:
+-2 infinite loop
+
+Wanda:
+-1 no prompts were displayed and game info was not updated each round
